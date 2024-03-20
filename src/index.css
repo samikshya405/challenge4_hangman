@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body{
+  width: 100%;
+  min-height: 100vh;
+  background-image: url('./assets/bg.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+  
+}
+.overlay{
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 255, 0.955), rgba(173, 216, 230, 0.665));
+  
+  z-index: 1;
+  position: absolute;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.circle{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-image: linear-gradient(to bottom,  rgba(191, 0, 255, 0.727),violet );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bar{
+  width: 200px;
+  height: 10px;
+ 
+}
+
+
+.question{
+  /* min-height: 40vh; */
+  padding-top: 20vh; 
+  padding-bottom: 10vh;
+}
+
+.letter{
+  background-color: white !important;
+  color: purple !important;
+  border-radius: 10px !important;
+ 
+}
+.btngrp{
+  max-width: 600px;
+  margin: 0 auto;
+}
+button:disabled{
+  background-color: rgb(100, 96, 96) !important;
+  color: rgba(0, 0, 0, 0.371) !important;
+
+}
+
+.quit{
+ background-image: linear-gradient(to bottom,  rgba(191, 0, 255, 0.727),violet );
+ border: none;
+}
+
+.modal-content{
+  background-color: rgba(0, 0, 255, 0.219) !important;
+  backdrop-filter: blur(5px) !important;
+  color: white !important;
+  min-height: 40vh;
+  /* align-items: center; */
+  justify-content: center;
+}
+.bi-heart-fill{
+  background-image: linear-gradient(to bottom, rgba(191, 0, 255, 0.727), violet);
+  -webkit-background-clip: text; /* For Safari */
+  background-clip: text;
+  color: transparent;
+
+}
